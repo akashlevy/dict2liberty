@@ -1,0 +1,715 @@
+{
+  "example": {
+    "delay_model": "table_lookup",
+    "simulation": false,
+    "capacitive_load_unit": "1,fF",
+    "leakage_power_unit": "1pW",
+    "current_unit": "1A",
+    "pulling_resistance_unit": "1kohm",
+    "time_unit": "1ps",
+    "voltage_unit": "1v",
+    "library_features": "report_delay_calculation",
+    "input_threshold_pct_rise": 50,
+    "input_threshold_pct_fall": 50,
+    "output_threshold_pct_rise": 50,
+    "output_threshold_pct_fall": 50,
+    "slew_lower_threshold_pct_rise": 10,
+    "slew_lower_threshold_pct_fall": 10,
+    "slew_upper_threshold_pct_rise": 90,
+    "slew_upper_threshold_pct_fall": 90,
+    "slew_derate_from_library": 1.0,
+    "nom_process": 1.0,
+    "nom_temperature": 100.0,
+    "nom_voltage": 0.63,
+    "type": {
+      "bus1": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 1,
+        "bit_from": 0,
+        "bit_to": 0
+      },
+      "bus2": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 2,
+        "bit_from": 1,
+        "bit_to": 0
+      },
+      "bus3": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 3,
+        "bit_from": 2,
+        "bit_to": 0
+      },
+      "bus4": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 4,
+        "bit_from": 3,
+        "bit_to": 0
+      },
+      "bus5": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 5,
+        "bit_from": 4,
+        "bit_to": 0
+      },
+      "bus6": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 6,
+        "bit_from": 5,
+        "bit_to": 0
+      },
+      "bus7": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 7,
+        "bit_from": 6,
+        "bit_to": 0
+      },
+      "bus8": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 8,
+        "bit_from": 7,
+        "bit_to": 0
+      },
+      "bus9": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 9,
+        "bit_from": 8,
+        "bit_to": 0
+      },
+      "bus10": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 10,
+        "bit_from": 9,
+        "bit_to": 0
+      },
+      "bus11": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 11,
+        "bit_from": 10,
+        "bit_to": 0
+      },
+      "bus13": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 13,
+        "bit_from": 12,
+        "bit_to": 0
+      },
+      "bus16": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 16,
+        "bit_from": 15,
+        "bit_to": 0
+      },
+      "bus20": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 20,
+        "bit_from": 19,
+        "bit_to": 0
+      },
+      "bus24": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 24,
+        "bit_from": 23,
+        "bit_to": 0
+      },
+      "bus30": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 30,
+        "bit_from": 29,
+        "bit_to": 0
+      },
+      "bus31": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 31,
+        "bit_from": 30,
+        "bit_to": 0
+      },
+      "bus32": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 32,
+        "bit_from": 31,
+        "bit_to": 0
+      },
+      "bus33": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 33,
+        "bit_from": 32,
+        "bit_to": 0
+      },
+      "bus36": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 36,
+        "bit_from": 35,
+        "bit_to": 0
+      },
+      "bus42": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 42,
+        "bit_from": 41,
+        "bit_to": 0
+      },
+      "bus64": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 64,
+        "bit_from": 63,
+        "bit_to": 0
+      },
+      "bus72": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 72,
+        "bit_from": 71,
+        "bit_to": 0
+      },
+      "bus93": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 93,
+        "bit_from": 92,
+        "bit_to": 0
+      },
+      "bus128": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 128,
+        "bit_from": 127,
+        "bit_to": 0
+      },
+      "bus160": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 160,
+        "bit_from": 159,
+        "bit_to": 0
+      },
+      "bus192": {
+        "base_type": "array",
+        "data_type": "bit",
+        "bit_width": 192,
+        "bit_from": 191,
+        "bit_to": 0
+      }
+    },
+    "cell": {
+      "sdffce_example": {
+        "area": 3.0618,
+        "ff_bank": {
+          "\"IQ\", \"IQN\", 6": {
+            "next_state": "(D & EN) | (IQ & !EN)",
+            "clocked_on": "CLK"
+          }
+        },
+        "pin": {
+          "CLK": {
+            "capacitance": 0,
+            "clock": true,
+            "direction": "input"
+          },
+          "SRST": {
+            "capacitance": 3.7092,
+            "direction": "input"
+          },
+          "EN": {
+            "capacitance": 6.4956,
+            "direction": "input",
+            "timing": {
+              "related_pin": "CLK",
+              "timing_type": "setup_rising",
+              "rise_constraint": {
+                "scalar": {
+                  "values": [
+                    37.98211
+                  ]
+                }
+              },
+              "fall_constraint": {
+                "scalar": {
+                  "values": [
+                    48.49153
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "bus": {
+          "D": {
+            "capacitance": 2.9628,
+            "bus_type": "bus6",
+            "direction": "input",
+            "timing": {
+              "related_pin": "CLK",
+              "timing_type": "setup_rising",
+              "rise_constraint": {
+                "scalar": {
+                  "values": [
+                    29.44952
+                  ]
+                }
+              },
+              "fall_constraint": {
+                "scalar": {
+                  "values": [
+                    31.90771
+                  ]
+                }
+              }
+            }
+          },
+          "Q": {
+            "function": "IQ",
+            "bus_type": "bus6",
+            "direction": "output",
+            "timing": [
+              {
+                "related_pin": "CLK",
+                "timing_sense": "non_unate",
+                "timing_type": "rising_edge",
+                "cell_rise": {
+                  "scalar": {
+                    "values": [
+                      40.58519
+                    ]
+                  }
+                },
+                "cell_fall": {
+                  "scalar": {
+                    "values": [
+                      37.79609
+                    ]
+                  }
+                },
+                "rise_transition": {
+                  "scalar": {
+                    "values": [
+                      18.15313
+                    ]
+                  }
+                },
+                "fall_transition": {
+                  "scalar": {
+                    "values": [
+                      19.35579
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "mux_example": {
+        "area": 2.79936,
+        "bus": {
+          "A": {
+            "capacitance": 6.0288,
+            "bus_type": "bus16",
+            "direction": "input"
+          },
+          "B": {
+            "capacitance": 6.352,
+            "bus_type": "bus16",
+            "direction": "input"
+          },
+          "Y": {
+            "function": "!S * A + S * B",
+            "bus_type": "bus16",
+            "direction": "output",
+            "timing": [
+              {
+                "related_pin": "S",
+                "cell_rise": {
+                  "scalar": {
+                    "values": [
+                      29.06974
+                    ]
+                  }
+                },
+                "cell_fall": {
+                  "scalar": {
+                    "values": [
+                      32.28872
+                    ]
+                  }
+                },
+                "rise_transition": {
+                  "scalar": {
+                    "values": [
+                      7.96625
+                    ]
+                  }
+                },
+                "fall_transition": {
+                  "scalar": {
+                    "values": [
+                      9.02081
+                    ]
+                  }
+                }
+              },
+              {
+                "related_pin": "A",
+                "cell_rise": {
+                  "scalar": {
+                    "values": [
+                      18.38638
+                    ]
+                  }
+                },
+                "cell_fall": {
+                  "scalar": {
+                    "values": [
+                      21.27586
+                    ]
+                  }
+                },
+                "rise_transition": {
+                  "scalar": {
+                    "values": [
+                      7.96625
+                    ]
+                  }
+                },
+                "fall_transition": {
+                  "scalar": {
+                    "values": [
+                      9.02081
+                    ]
+                  }
+                }
+              },
+              {
+                "related_pin": "B",
+                "cell_rise": {
+                  "scalar": {
+                    "values": [
+                      17.81121
+                    ]
+                  }
+                },
+                "cell_fall": {
+                  "scalar": {
+                    "values": [
+                      21.20884
+                    ]
+                  }
+                },
+                "rise_transition": {
+                  "scalar": {
+                    "values": [
+                      7.96625
+                    ]
+                  }
+                },
+                "fall_transition": {
+                  "scalar": {
+                    "values": [
+                      9.02081
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "pin": {
+          "S": {
+            "capacitance": 16.6512,
+            "direction": "input"
+          }
+        }
+      },
+      "and_example": {
+        "area": 0.08748,
+        "pin": {
+          "A": {
+            "capacitance": 0.4824,
+            "direction": "input"
+          },
+          "B": {
+            "capacitance": 0.5242,
+            "direction": "input"
+          },
+          "Y": {
+            "function": "A & B",
+            "direction": "output",
+            "timing": [
+              {
+                "related_pin": "A",
+                "cell_rise": {
+                  "scalar": {
+                    "values": [
+                      17.72904
+                    ]
+                  }
+                },
+                "cell_fall": {
+                  "scalar": {
+                    "values": [
+                      18.35659
+                    ]
+                  }
+                },
+                "rise_transition": {
+                  "scalar": {
+                    "values": [
+                      6.78648
+                    ]
+                  }
+                },
+                "fall_transition": {
+                  "scalar": {
+                    "values": [
+                      7.30723
+                    ]
+                  }
+                }
+              },
+              {
+                "related_pin": "B",
+                "cell_rise": {
+                  "scalar": {
+                    "values": [
+                      18.63255
+                    ]
+                  }
+                },
+                "cell_fall": {
+                  "scalar": {
+                    "values": [
+                      17.86699
+                    ]
+                  }
+                },
+                "rise_transition": {
+                  "scalar": {
+                    "values": [
+                      6.78648
+                    ]
+                  }
+                },
+                "fall_transition": {
+                  "scalar": {
+                    "values": [
+                      7.30723
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "mem_example": {
+        "area": 555.3268816,
+        "memory": {
+          "type": "ram",
+          "address_width": 5,
+          "word_width": 32
+        },
+        "bus": {
+          "RD_CLK": {
+            "capacitance": 0,
+            "bus_type": "bus2",
+            "direction": "input"
+          },
+          "RD_EN": {
+            "capacitance": 0,
+            "bus_type": "bus2",
+            "direction": "input"
+          },
+          "RD_ADDR": {
+            "capacitance": 32.64598232,
+            "bus_type": "bus10",
+            "direction": "input"
+          },
+          "RD_DATA": {
+            "bus_type": "bus64",
+            "direction": "output",
+            "memory_read": {
+              "address": "RD_ADDR",
+              "enable": "RD_EN"
+            },
+            "timing": [
+              {
+                "related_pin": "RD_ADDR",
+                "timing_sense": "non_unate",
+                "cell_rise": {
+                  "scalar": {
+                    "values": [
+                      103.85133389
+                    ]
+                  }
+                },
+                "cell_fall": {
+                  "scalar": {
+                    "values": [
+                      113.50499111
+                    ]
+                  }
+                },
+                "rise_transition": {
+                  "scalar": {
+                    "values": [
+                      17.37031477
+                    ]
+                  }
+                },
+                "fall_transition": {
+                  "scalar": {
+                    "values": [
+                      15.73371943
+                    ]
+                  }
+                }
+              },
+              {
+                "related_pin": "RD_EN",
+                "timing_sense": "non_unate",
+                "cell_rise": {
+                  "scalar": {
+                    "values": [
+                      103.85133389
+                    ]
+                  }
+                },
+                "cell_fall": {
+                  "scalar": {
+                    "values": [
+                      113.50499111
+                    ]
+                  }
+                },
+                "rise_transition": {
+                  "scalar": {
+                    "values": [
+                      17.37031477
+                    ]
+                  }
+                },
+                "fall_transition": {
+                  "scalar": {
+                    "values": [
+                      15.73371943
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          "RD_ARST": {
+            "capacitance": 0,
+            "bus_type": "bus2",
+            "direction": "input"
+          },
+          "RD_SRST": {
+            "capacitance": 0,
+            "bus_type": "bus2",
+            "direction": "input"
+          },
+          "WR_EN": {
+            "capacitance": 58.92817408,
+            "bus_type": "bus32",
+            "direction": "input",
+            "timing": {
+              "related_pin": "WR_CLK",
+              "timing_type": "setup_rising",
+              "rise_constraint": {
+                "scalar": {
+                  "values": [
+                    150.22615721
+                  ]
+                }
+              },
+              "fall_constraint": {
+                "scalar": {
+                  "values": [
+                    128.54526754
+                  ]
+                }
+              }
+            }
+          },
+          "WR_ADDR": {
+            "capacitance": 22.80240728,
+            "bus_type": "bus5",
+            "direction": "input",
+            "timing": {
+              "related_pin": "WR_CLK",
+              "timing_type": "setup_rising",
+              "rise_constraint": {
+                "scalar": {
+                  "values": [
+                    143.98554916
+                  ]
+                }
+              },
+              "fall_constraint": {
+                "scalar": {
+                  "values": [
+                    150.60109826
+                  ]
+                }
+              }
+            }
+          },
+          "WR_DATA": {
+            "capacitance": 26.36629256,
+            "bus_type": "bus32",
+            "direction": "input",
+            "memory_write": {
+              "address": "WR_ADDR",
+              "clocked_on": "WR_CLK"
+            },
+            "timing": {
+              "related_pin": "WR_CLK",
+              "timing_type": "setup_rising",
+              "rise_constraint": {
+                "scalar": {
+                  "values": [
+                    61.65764085
+                  ]
+                }
+              },
+              "fall_constraint": {
+                "scalar": {
+                  "values": [
+                    65.37688468
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "pin": {
+          "WR_CLK": {
+            "capacitance": 0,
+            "direction": "input"
+          }
+        }
+      }
+    }
+  }
+}
